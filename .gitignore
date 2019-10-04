@@ -1,0 +1,5 @@
+# ignore r file
+*.r
+
+# ignore testing notebook
+testing-notebook.ipynb
