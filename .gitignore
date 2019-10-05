@@ -7,3 +7,4 @@ testing-notebook.ipynb
 # personal tokens
 *.pickle
 *.json
+creds/

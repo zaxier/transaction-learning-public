@@ -6,7 +6,7 @@
 - Google spreadsheet ID with column for transaction description, account_name and transaction amount (defined as "read_range")
 - Google spreadsheet ID with column as "write_range" for predictions.
 
-![1570246494775](./1570246494775.png)
+![1570246494775](./img.png)
 
 
 
