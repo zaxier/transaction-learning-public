@@ -3,3 +3,7 @@
 
 # ignore testing notebook
 testing-notebook.ipynb
+
+# personal tokens
+*.pickle
+*.json
