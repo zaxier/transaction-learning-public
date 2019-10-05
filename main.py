@@ -10,8 +10,8 @@ def construct_json(series, range_):
     return data_json
 
 
-def main(sheet_name, write_bool):
-    data = get_data(ssid=copy_master_sheet, range=read)
+def main(sheet_name, read_range, write_range, write_bool):
+    data = get_data(ssid=sheet_name, range=read_range)
     # Prepare data
     features, target, empty_bool = prepare_data(data.copy())
     x_train = features[~empty_bool]
@@ -47,11 +47,13 @@ if __name__ == '__main__':
 
     # The ID and range of spreadsheet.
     master_sheet = '' # FILL with personal sheet ID
-    copy_master_sheet = '' # FILL with personal sheet ID
 
     # Set read/write range
     read = '' # Fill with personal read range
-    write_range = '' # Fill with personal write range
+    write = '' # Fill with personal write range
 
-    main(copy_master_sheet, True)
+    main(sheet_name=master_sheet,
+            read_range=read, 
+            write_range=write,
+            write_bool=True)
 
