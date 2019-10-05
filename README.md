@@ -1,6 +1,6 @@
 # Transaction Classification - Google Spreadsheet API
 
-#### Prerequisites
+### Prerequisites
 
 - Google OAuth() authentication
 - Google spreadsheet ID with column for transaction description, account_name and transaction amount (defined as "read_range")
@@ -10,7 +10,7 @@
 
 
 
-#### Current State
+### Current State
 
 Algorithm uses previous classifications to classify new transactions inputted into spreadsheet.
 
@@ -18,7 +18,7 @@ Currently utilises ridge regression on text and numeric features to classify new
 
 
 
-#### Use 
+### Use 
 
 Would require some adjustment for personal spreadsheets of other users but once configured running `main.py` daily or weekly will automatically classify new transactions.
 
