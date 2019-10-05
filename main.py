@@ -44,16 +44,14 @@ def main(sheet_name, read_range, write_range, write_bool):
 
 
 if __name__ == '__main__':
-
     # The ID and range of spreadsheet.
-    master_sheet = '' # FILL with personal sheet ID
+    master_sheet = ''  # FILL with personal sheet ID
 
     # Set read/write range
-    read = '' # Fill with personal read range
-    write = '' # Fill with personal write range
+    read = ''  # Fill with personal read range
+    write = ''  # Fill with personal write range
 
     main(sheet_name=master_sheet,
-            read_range=read, 
-            write_range=write,
-            write_bool=True)
-
+         read_range=read,
+         write_range=write,
+         write_bool=True)
