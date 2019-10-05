@@ -1,5 +1,5 @@
-from category_classification import create_model, prepare_data
-from get_data import write_data, get_data
+from src.category_classification import create_model, prepare_data
+from src.get_data import write_data, get_data
 from sklearn.preprocessing import LabelBinarizer
 
 

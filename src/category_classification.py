@@ -1,7 +1,6 @@
 import pandas as pd
 import pickle
 import re
-from get_data import get_data
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LinearRegression, Ridge
 
